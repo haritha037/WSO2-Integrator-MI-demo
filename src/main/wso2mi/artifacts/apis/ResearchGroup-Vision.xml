@@ -5,7 +5,7 @@
             <call >
     <endpoint key="rg-computer-vision" />
   
-</call><datamapper config="resources:datamapper/rg-details-data-mapper/rg-details-data-mapper.dmc" inputSchema="resources:datamapper/rg-details-data-mapper/rg-details-data-mapper_inputSchema.json" outputSchema="resources:datamapper/rg-details-data-mapper/rg-details-data-mapper_outputSchema.json" /></inSequence>
+</call><datamapper config="resources:datamapper/rg-details-data-mapper/rg-details-data-mapper.dmc" inputSchema="resources:datamapper/rg-details-data-mapper/rg-details-data-mapper_inputSchema.json" outputSchema="resources:datamapper/rg-details-data-mapper/rg-details-data-mapper_outputSchema.json" /><respond /></inSequence>
             <faultSequence>
             </faultSequence>
         </resource>
